@@ -1,0 +1,116 @@
+/* SiavoPay — generated from tokens.json */
+@font-face { font-family: "Geist"; src: url("fonts/Geist-300.woff2") format("woff2"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("fonts/Geist-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("fonts/Geist-500.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("fonts/Geist-600.woff2") format("woff2"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("fonts/Geist-700.woff2") format("woff2"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist"; src: url("fonts/Geist-800.woff2") format("woff2"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist Mono"; src: url("fonts/GeistMono-400.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geist Mono"; src: url("fonts/GeistMono-500.woff2") format("woff2"); font-weight: 500; font-style: normal; font-display: swap; }
+:root, [data-theme="light"] {
+  --azul-siavo: #3400E9;
+  --azul-50: #F3F0FF;
+  --azul-100: #E7E1FF;
+  --azul-200: #CDC1FF;
+  --azul-300: #A894FF;
+  --azul-400: #7C5CFF;
+  --azul-600: #2A00BF;
+  --azul-700: #200094;
+  --azul-900: #0D0045;
+  --noite: #0D0B1A;
+  --superficie: #FFFFFF;
+  --superficie-2: #F8F7FC;
+  --superficie-3: #EFEDF5;
+  --texto: #0D0B1A;
+  --texto-suave: #575170;
+  --texto-inverso: #FFFFFF;
+  --borda: #E0DDEA;
+  --borda-campo: #77718F;
+  --foco: #3400E9;
+  --sucesso: #0B7A43;
+  --sucesso-fundo: #E3F5EA;
+  --erro: #C8253B;
+  --erro-fundo: #FDE8EB;
+  --aviso: #8A5A00;
+  --aviso-fundo: #FFF4D6;
+  --sol: #FFD23F;
+  --rosto: #000000;
+  --sombra-1: 0 1px 2px rgba(13,11,26,0.06), 0 1px 1px rgba(13,11,26,0.04);
+  --sombra-2: 0 12px 32px -8px rgba(13,11,26,0.16);
+  --sombra-azul: 0 10px 24px -10px rgba(52,0,233,0.55);
+}
+[data-theme="dark"] {
+  --azul-siavo: #3400E9;
+  --azul-50: #16006A;
+  --azul-100: #200094;
+  --azul-200: #2A00BF;
+  --azul-300: #A894FF;
+  --azul-400: #7C5CFF;
+  --azul-600: #CDC1FF;
+  --azul-700: #E7E1FF;
+  --azul-900: #F3F0FF;
+  --noite: #0D0B1A;
+  --superficie: #0D0B1A;
+  --superficie-2: #16132A;
+  --superficie-3: #252139;
+  --texto: #F8F7FC;
+  --texto-suave: #9C97B0;
+  --texto-inverso: #FFFFFF;
+  --borda: #3B3652;
+  --borda-campo: #77718F;
+  --foco: #A894FF;
+  --sucesso: #4ADE80;
+  --sucesso-fundo: #0F2A1C;
+  --erro: #FF8A8A;
+  --erro-fundo: #3A1219;
+  --aviso: #F5B83D;
+  --aviso-fundo: #2E2207;
+  --sol: #FFD23F;
+  --rosto: #000000;
+  --sombra-1: 0 1px 2px rgba(0,0,0,0.5);
+  --sombra-2: 0 12px 32px -8px rgba(0,0,0,0.6);
+  --sombra-azul: 0 10px 24px -10px rgba(52,0,233,0.8);
+  color-scheme: dark;
+}
+:root {
+  --esp-1: 4px;
+  --esp-2: 8px;
+  --esp-3: 12px;
+  --esp-4: 16px;
+  --esp-5: 24px;
+  --esp-6: 32px;
+  --esp-7: 48px;
+  --esp-8: 64px;
+  --esp-9: 96px;
+  --esp-10: 128px;
+  --raio-sm: 6px;
+  --raio-md: 12px;
+  --raio-lg: 20px;
+  --raio-xl: 32px;
+  --raio-pilula: 999px;
+  --dur-instante: 80ms;
+  --dur-rapida: 160ms;
+  --dur-base: 240ms;
+  --dur-lenta: 400ms;
+  --dur-expressiva: 640ms;
+  --curva-saida: cubic-bezier(0.2, 0, 0, 1);
+  --curva-entrada: cubic-bezier(0.4, 0, 1, 1);
+  --curva-mola: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --curva-respiro: cubic-bezier(0.45, 0, 0.55, 1);
+  --font-sans: "Geist", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+.display-xl { font-family: var(--font-sans); font-size: 88px; line-height: 0.92; font-weight: 800; letter-spacing: -0.045em; }
+.display { font-family: var(--font-sans); font-size: 64px; line-height: 0.95; font-weight: 800; letter-spacing: -0.04em; }
+.display-leve { font-family: var(--font-sans); font-size: 64px; line-height: 0.95; font-weight: 300; letter-spacing: -0.035em; }
+.h1 { font-family: var(--font-sans); font-size: 44px; line-height: 1.05; font-weight: 700; letter-spacing: -0.03em; }
+.h2 { font-family: var(--font-sans); font-size: 32px; line-height: 1.12; font-weight: 700; letter-spacing: -0.02em; }
+.h3 { font-family: var(--font-sans); font-size: 24px; line-height: 1.2; font-weight: 600; letter-spacing: -0.01em; }
+.lead { font-family: var(--font-sans); font-size: 20px; line-height: 1.45; font-weight: 400; }
+.body { font-family: var(--font-sans); font-size: 16px; line-height: 1.55; font-weight: 400; }
+.body-sm { font-family: var(--font-sans); font-size: 14px; line-height: 1.5; font-weight: 400; }
+.label { font-family: var(--font-sans); font-size: 13px; line-height: 1.3; font-weight: 600; letter-spacing: 0.01em; }
+.caption { font-family: var(--font-sans); font-size: 12px; line-height: 1.4; font-weight: 500; letter-spacing: 0.02em; }
+.valor-xl { font-family: var(--font-sans); font-size: 48px; line-height: 1; font-weight: 700; letter-spacing: -0.03em; }
+.valor { font-family: var(--font-sans); font-size: 28px; line-height: 1.1; font-weight: 600; letter-spacing: -0.02em; }
+.mono { font-family: var(--font-mono); font-size: 14px; line-height: 1.45; font-weight: 400; letter-spacing: 0; }

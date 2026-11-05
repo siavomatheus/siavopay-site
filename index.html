@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SiavoPay: paid when it's delivered</title>
+    <meta name="description" content="A checkout that keeps the shopper's money protected until the order arrives. Coming soon." />
+    <meta name="theme-color" content="#3400E9" />
+    <meta property="og:title" content="SiavoPay: paid when it's delivered" />
+    <meta property="og:description" content="A checkout that keeps the shopper's money protected until the order arrives. Coming soon." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://siavopay.com/" />
+    <meta property="og:image" content="https://siavopay.com/assets/img/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="assets/img/siavopay-favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/img/siavopay-favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/img/siavopay-favicon-180.png" />
+    <link rel="preload" href="assets/fonts/Geist-800.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/fonts/Geist-300.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="assets/tokens.css" />
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body>
+    <a class="pular" href="#conteudo">Skip to content</a>
+
+    <header class="hero">
+      <nav class="topo" aria-label="Main">
+        <a href="./" aria-label="SiavoPay home"><img class="topo__logo" src="assets/img/siavopay-horizontal-sobre-azul.svg" alt="SiavoPay" width="170" height="40" /></a>
+        <a class="botao botao--contorno" href="#acesso">Get early access</a>
+      </nav>
+
+      <div class="hero__texto">
+        <p class="selo"><span class="selo__ponto" aria-hidden="true"></span>Coming soon</p>
+        <h1 class="titulo">Paid when<span class="titulo__leve">it's delivered.</span></h1>
+        <p class="hero__sub">A checkout that keeps the shopper's money protected until the order arrives.</p>
+        <a class="botao botao--branco" href="#jornada">See how it works</a>
+      </div>
+
+      <img class="hero__rosto" src="assets/img/siavopay-simbolo-sobre-azul.svg" alt="" width="850" height="754" />
+    </header>
+
+    <main id="conteudo">
+      <section class="jornada" id="jornada" aria-labelledby="jornada-titulo">
+        <div class="bloco">
+          <div class="jornada__intro">
+            <p class="rotulo">How it works</p>
+            <h2 class="titulo-2" id="jornada-titulo">Your money waits<span class="titulo-2__leve">for your order.</span></h2>
+            <p class="texto-suave">Shoppers pay the way they always do. The store gets paid after the order arrives and the protection window ends.</p>
+          </div>
+
+          <div class="demo">
+            <div class="demo__personagem" id="personagem" aria-hidden="true">
+              <img src="assets/img/personagem-protegido.svg" alt="" width="1030" height="900" />
+            </div>
+
+            <div class="pedido">
+              <div class="pedido__topo">
+                <div>
+                  <p class="pedido__rotulo">Sample order</p>
+                  <p class="pedido__numero">Order #1042</p>
+                </div>
+                <p class="chip" id="chip" aria-live="polite">Held until delivery</p>
+              </div>
+
+              <ol class="passos" id="passos">
+                <li>
+                  <button class="passo" type="button" data-animacao="protegido" data-chip="Held until delivery">
+                    <span class="passo__ponto" aria-hidden="true"></span>
+                    <span class="passo__titulo">Paid, held safely</span>
+                    <span class="passo__meta">Nov 2. The store can't touch it yet.</span>
+                  </button>
+                </li>
+                <li>
+                  <button class="passo" type="button" data-animacao="piscar-atento" data-chip="Held until delivery">
+                    <span class="passo__ponto" aria-hidden="true"></span>
+                    <span class="passo__titulo">Shipped</span>
+                    <span class="passo__meta">Nov 3. Tracking added to your order.</span>
+                  </button>
+                </li>
+                <li>
+                  <button class="passo" type="button" data-animacao="idle-feliz" data-chip="Protected until Nov 20">
+                    <span class="passo__ponto" aria-hidden="true"></span>
+                    <span class="passo__titulo">Delivered, protection starts</span>
+                    <span class="passo__meta">Nov 6. You have 14 days to request a return.</span>
+                  </button>
+                </li>
+                <li>
+                  <button class="passo" type="button" data-animacao="sucesso" data-chip="Released to the store">
+                    <span class="passo__ponto" aria-hidden="true"></span>
+                    <span class="passo__titulo">Released to the store</span>
+                    <span class="passo__meta">Nov 20. If everything looks right, you don't need to do anything.</span>
+                  </button>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="catorze" aria-labelledby="catorze-titulo">
+        <div class="catorze__texto">
+          <h2 class="catorze__titulo" id="catorze-titulo"><span class="catorze__numero">14</span><span class="catorze__linha">days of protection</span><span class="catorze__linha catorze__linha--forte">after delivery.</span></h2>
+          <p class="catorze__nota">Never arrived? If delivery isn't confirmed in time, the order amount goes back to the shopper.</p>
+        </div>
+        <img class="catorze__rosto" src="assets/img/personagem-protegido.svg" alt="" width="1030" height="900" loading="lazy" />
+      </section>
+
+      <section class="publicos" aria-label="Who it's for">
+        <div class="bloco publicos__grade">
+          <article class="publico">
+            <p class="rotulo">For shoppers</p>
+            <h2 class="titulo-3">Buy from a new store<span class="titulo-3__leve">without the worry.</span></h2>
+            <ul class="lista">
+              <li>Pay with your card, like any online store.</li>
+              <li>See the date your protection ends.</li>
+              <li>Request a return in a few clicks.</li>
+            </ul>
+          </article>
+          <article class="publico publico--azul">
+            <p class="rotulo">For stores</p>
+            <h2 class="titulo-3">Give new customers<span class="titulo-3__leve">a reason to say yes.</span></h2>
+            <ul class="lista">
+              <li>Show protection right at checkout.</li>
+              <li>Follow clear rules with clear dates.</li>
+              <li>Get paid after the protection window ends.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="acesso" id="acesso" aria-labelledby="acesso-titulo">
+        <div class="acesso__texto">
+          <h2 class="titulo-2 titulo-2--claro" id="acesso-titulo">We're starting small.<span class="titulo-2__leve">Come early.</span></h2>
+          <p class="acesso__sub">We're opening to a small group of online stores. Tell us about yours.</p>
+          <form class="contato" id="contato" action="https://api.web3forms.com/submit" method="POST">
+            <!-- Esta chave é pública por natureza: só permite enviar mensagens para o e-mail cadastrado no Web3Forms. -->
+            <input type="hidden" name="access_key" value="4d357ea6-ba0a-4a91-b16a-fab3a0bb22ce" />
+            <input type="hidden" name="subject" value="New message from siavopay.com" />
+            <input type="hidden" name="from_name" value="SiavoPay site" />
+            <input class="contato__isca" type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" aria-hidden="true" />
+            <div class="contato__linha">
+              <label>Name<input type="text" name="name" autocomplete="name" maxlength="100" required /></label>
+              <label>Email<input type="email" name="email" autocomplete="email" maxlength="150" required /></label>
+            </div>
+            <label>Message<textarea name="message" rows="4" maxlength="2000" required></textarea></label>
+            <div class="contato__envio">
+              <button class="botao botao--azul" type="submit">Send message</button>
+              <p class="contato__nota">We'll only use your details to reply to you.</p>
+            </div>
+            <p class="contato__aviso" id="contato-aviso" role="status" hidden></p>
+          </form>
+        </div>
+        <div class="acesso__personagem" id="personagem-ola" aria-hidden="true">
+          <img src="assets/img/personagem-feliz.svg" alt="" width="1030" height="900" loading="lazy" />
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <img src="assets/img/siavopay-horizontal-negativo.svg" alt="SiavoPay" width="120" height="28" loading="lazy" />
+      <p>SiavoPay is in development. We're not processing live payments yet.</p>
+      <p><a href="mailto:matheus@siavopay.com">matheus@siavopay.com</a></p>
+    </footer>
+
+    <script src="assets/lottie_light.min.js" defer></script>
+    <script src="assets/site.js" defer></script>
+  </body>
+</html>
